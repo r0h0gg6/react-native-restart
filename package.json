@@ -18,7 +18,7 @@
     "test": "jest --coverage && jest-coverage-badges --output './badges'",
     "typescript": "tsc --noEmit",
     "lint": "eslint --ext .js,.ts,.tsx .",
-    "prepare": "bob build && husky install",
+    "prepare": "bob build",
     "release": "dotenv release-it",
     "example": "yarn --cwd Example",
     "pods": "cd Example/ios && node -e \"process.exit(require('os').platform() === 'darwin')\" || pod install",
